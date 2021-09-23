@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Component One</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+      .mt-2 {
+        margin-top: 4rem;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>My Awesome Tooltip</h1>
+      <p class="mt-2">Lorem ipsum dolor
+        <popup-notify>
+          <span slot="message">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quasi, aliquam ut, ullam sapiente molestias veritatis, sint accusamus ex quo est. Deserunt nisi officia dolorem fugit dolor, quos sunt voluptas.</span>
+        </popup-notify>
+        sit amet consectetur, adipisicing elit. Deleniti odio sequi quas error ad accusamus.
+      </p>
+    </div>
+
+    <div class="container mt-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti saepe quo aut tempora quis fuga incidunt similique cum, suscipit dignissimos placeat nihil vero pariatur totam, cupiditate molestias, repellat eum recusandae?
+        <popup-notify>
+          <span slot="message1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nostrum, doloribus perspiciatis sequi nobis non impedit, quasi iste quod facere a. Laborum, non deserunt assumenda, ea, vel eius aut voluptatem voluptatum veniam temporibus expedita quaerat unde dolores inventore molestias modi?</span>
+        </popup-notify>
+      </p>
+    </div>
+
+
+
+
+    <script src="js/popupNotify.js"></script>
+  </body>
+
+</html>
